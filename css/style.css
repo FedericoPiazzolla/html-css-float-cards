@@ -4,3 +4,49 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* HEADER */
+h1{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: #e5316f;
+  padding-top: 2rem;
+}
+
+/* MAIN */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Card */
+.schedule{
+  width: calc(100% / 3);
+  float: left;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.card{
+  font-size: 1rem;
+  min-height: 100px;
+  background-color: black;
+  color: white;
+
+}
+
+img{
+  float: left;
+  height: 100px;
+  padding-right: 1rem;
+}
