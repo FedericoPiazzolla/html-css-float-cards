@@ -34,12 +34,18 @@ h1{
   width: calc(100% / 3);
   float: left;
   padding: 2rem;
-  border: 1px solid black;
+}
+
+clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .card{
   font-size: 1rem;
   min-height: 100px;
+  min-width: 335px;
   background-color: black;
   color: white;
 
@@ -50,3 +56,24 @@ img{
   height: 100px;
   padding-right: 1rem;
 }
+
+/* TEXT CARD */
+h2,h3{
+  padding-bottom: 0.3rem;
+}
+
+.title{
+  font-size: 1.2rem;
+  padding-top: 0.4rem;
+  font-weight: 700;
+}
+
+.job{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.mail{
+  color: #46cbef;
+}
+
