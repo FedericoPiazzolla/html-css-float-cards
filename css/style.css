@@ -24,7 +24,49 @@ body{
   padding-bottom: 3rem;
 }
 
+p{
+  margin-bottom: 1rem;
+}
+
 /* UTILITIES */
 .text-center{
   text-align: center;
+}
+
+/* GRID */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col{
+  float:left;
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
+  border: 1px solid greenyellow;
+}
+
+/* CARD OF MEMEBERS */
+.card-image{
+  float: left;
+  width: 100px;
+}
+
+.card{
+  background-color: #0f0e17;
+  color: white;
+}
+
+.card-content {
+  float: right;
+  width: calc(100% - 100px);
+  padding: 5px 10px;
+} 
+
+.name {
+  margin-bottom: .4rem;
+}
+
+.card-content a{
+  color: #4dabd3;
 }
