@@ -1,3 +1,4 @@
+/* RESET   */
 *{
   margin: 0;
   padding: 0;
@@ -8,3 +9,22 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+/* COMMON */
+.section{
+  padding: 2rem 0;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.section-title{
+  font-size: 3rem;
+  color: #e5316f;
+  padding-bottom: 3rem;
+}
+
+/* UTILITIES */
+.text-center{
+  text-align: center;
+}
